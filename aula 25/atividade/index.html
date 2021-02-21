@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Atividade</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Tabela IMC</h1>
+      <div id=textContainer>
+        <div id="leftSide">
+          <h2>IMC</h2>
+          <p>
+            Menos do que 18,5 <br />
+            Entre 18,5 e 24,9 <br />
+            Entre 25 e 29,9 <br />
+            Entre 30 e 34,9 <br />
+            Entre 35 e 39,9 <br />
+            Mais do que 40 <br />
+          </p>
+        </div>
+
+        <div id="RightSide">
+          <h2>IMC</h2>
+          <p>
+            Abaixo do peso <br />
+            Peso normal <br />
+            Sobrepeso <br />
+            Obesidade grau 1 <br />
+            Obesidade grau 2 <br />
+            Obesidade grau 3 <br />
+          </p>
+        </div>
+      </div>
+
+      <h2>Calcule seu IMC</h2>
+
+      <form action="" class="form" method="GET">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso" class="peso"/>
+
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura" class="altura" />
+
+        <button>Enviar</button>
+      </form>
+
+      <div class="resposta"></div>
+     
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
